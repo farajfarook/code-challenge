@@ -15,7 +15,7 @@ All salespeople are assigned to one or more groups from below.
 - Group C – Family car specialist
 - Group D – Tradie vehicle specialist
 
-**Salespeople information** 
+**Salespeople Information** 
 
 *you can find this data in [salesperson.json](salesperson.json)*
 
@@ -24,7 +24,7 @@ All salespeople are assigned to one or more groups from below.
 3. Kierra Gentry. (Group A & Group C)
 4. ...
 
-**Salesperson assigning Rules**
+**Salesperson Assigning Rules**
 
 Rules to assign a specific salesperson to the customer is as below in priority order.
 
@@ -41,7 +41,7 @@ If a salesperson is assigned to a customer, that person cannot be assigned to an
 | **Don't speak Greek** | Not looking for anything specific | - Assign from any group |
 
 
-## Example test case
+## Example Test Case
 
 First Customer is Greek looking for a Family car – Assigned to Kierra Gentry
 
