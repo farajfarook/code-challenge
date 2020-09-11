@@ -1,10 +1,12 @@
 # Code  Challenge
 
-**Requirement**
+## Requirement
 
 You are required to building a **Production ready** application where you can automatically assign a Salesperson to a customer based on a set of rules.
 
 We would like to see your Backend as well as in Frontend skills in any technology that you are familiar with. Don&#39;t stress about storing data in database use the attached JSON files as your data sources.
+
+## Scenario
 
 All salespeople are assigned to one or more groups from below.
 
