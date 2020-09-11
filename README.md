@@ -42,7 +42,8 @@ If a salesperson is assigned to a customer, that person cannot be assigned to an
 | **Speak Greek** | Not looking for anything specific | - Assign from Group A <br/> - If cannot be found, assign from any group |
 | **Don&#39;t speak Greek** | Not looking for anything specific | - Assign from any group |
 
-**Example test case**
+
+## Example test case
 
 First Customer is Greek looking for a Family car – Assigned to Kierra Gentry
 
