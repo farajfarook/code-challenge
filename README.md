@@ -15,16 +15,14 @@ All salespeople are assigned to one or more groups from below.
 - Group C – Family car specialist
 - Group D – Tradie vehicle specialist
 
-**Salespeople information**
+**Salespeople information** 
+
+*you can find this data in [salesperson.json](salesperson.json)*
 
 1. Cierra Vega. (Group A)
-2. Alden Cantrell. (Group B &amp; Group D)
-3. Kierra Gentry. (Group A &amp; Group C)
-4. Pierre Cox. (Group D)
-5. Thomas Crane. (Group A &amp; Group B)
-6. Miranda Shaffer. (Group B)
-7. Bradyn Kramer. (Group D)
-8. Alvaro Mcgee. (Group A &amp; Group D &amp; Group C)
+2. Alden Cantrell. (Group B & Group D)
+3. Kierra Gentry. (Group A & Group C)
+4. ...
 
 **Salesperson assigning Rules**
 
@@ -37,10 +35,10 @@ If a salesperson is assigned to a customer, that person cannot be assigned to an
 | **Speak Greek** | Sports Car | - Assign from Group A and Group B. <br/> - If cannot be found, assign from Group B <br/> - If cannot be found, assign from any group |
 | **Speak Greek** | Family Car | - Assign from Group A and Group C. <br/> - If cannot be found, assign from Group A <br/> - If cannot be found, assign from any group |
 | **Regardless of the language** | Tradie Vehicle | - Assign from Group D <br/> - If cannot be found, assign from any group |
-| **Don&#39;t speak Greek** | Sports Car | - Assign from Group B <br/> - If cannot be found, assign from any group |
-| **Don&#39;t speak Greek** | Family Car | - Assign from Group C <br/> - If cannot be found, assign from any group |
+| **Don't speak Greek** | Sports Car | - Assign from Group B <br/> - If cannot be found, assign from any group |
+| **Don't speak Greek** | Family Car | - Assign from Group C <br/> - If cannot be found, assign from any group |
 | **Speak Greek** | Not looking for anything specific | - Assign from Group A <br/> - If cannot be found, assign from any group |
-| **Don&#39;t speak Greek** | Not looking for anything specific | - Assign from any group |
+| **Don't speak Greek** | Not looking for anything specific | - Assign from any group |
 
 
 ## Example test case
