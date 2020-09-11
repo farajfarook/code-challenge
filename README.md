@@ -40,6 +40,7 @@ If a salesperson is assigned to a customer, that person cannot be assigned to an
 | **Speak Greek** | Not looking for anything specific | - Assign from Group A <br/> - If cannot be found, assign from any group |
 | **Don't speak Greek** | Not looking for anything specific | - Assign from any group |
 
+<hr/>
 
 ## Example Test Case
 
