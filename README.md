@@ -30,7 +30,7 @@ Rules to assign a specific salesperson to the customer is as below in priority o
 
 If a salesperson is assigned to a customer, that person cannot be assigned to another customer. If there are no salesperson available, application should return a message saying, &quot;All salespeople are busy. Please wait.&quot;
 
-| **Customer** | **Looking for** ||
+| **Customer** | **Looking for** | **Rules** |
 | --- | --- | --- |
 | **Speak Greek** | Sports Car | - Assign from Group A and Group B. <br/> - If cannot be found, assign from Group B <br/> - If cannot be found, assign from any group |
 | **Speak Greek** | Family Car | - Assign from Group A and Group C. <br/> - If cannot be found, assign from Group A <br/> - If cannot be found, assign from any group |
