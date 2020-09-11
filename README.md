@@ -4,7 +4,7 @@
 
 You are required to building a **Production ready** application where you can automatically assign a Salesperson to a customer based on a set of rules.
 
-We would like to see your Backend *(We Prefer .NET core)* as well Frontend *(We Prefer Angular)* skills. Don't stress about storing data in database use the attached JSON files as your data sources. If you are an experienced Java developer who likes to work on .NET, feel free on using Java to build the backend.
+We would like to see your Backend *(We Prefer .NET core)* as well Frontend *(We Prefer Angular)* skills. Don't stress about storing data in database use the attached JSON file as your data sources. If you are an experienced Java developer who likes to work on .NET, feel free on using Java to build the backend.
 
 ## Scenario
 
