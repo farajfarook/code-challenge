@@ -32,12 +32,12 @@ If a salesperson is assigned to a customer, that person cannot be assigned to an
 
 | **Customer** | **Looking for** ||
 | --- | --- | --- |
-| **Speak Greek** | Sports Car | - Assign from Group A and Group B. - If cannot be found, assign from Group B - If cannot be found, assign from any group |
-| **Speak Greek** | Family Car | - Assign from Group A and Group C. - If cannot be found, assign from Group A - If cannot be found, assign from any group |
-| **Regardless of the language** | Tradie Vehicle | - Assign from Group D - If cannot be found, assign from any group |
-| **Don&#39;t speak Greek** | Sports Car | - Assign from Group B - If cannot be found, assign from any group |
-| **Don&#39;t speak Greek** | Family Car | - Assign from Group C - If cannot be found, assign from any group |
-| **Speak Greek** | Not looking for anything specific | - Assign from Group A - If cannot be found, assign from any group |
+| **Speak Greek** | Sports Car | - Assign from Group A and Group B. <br/> - If cannot be found, assign from Group B <br/> - If cannot be found, assign from any group |
+| **Speak Greek** | Family Car | - Assign from Group A and Group C. <br/> - If cannot be found, assign from Group A <br/> - If cannot be found, assign from any group |
+| **Regardless of the language** | Tradie Vehicle | - Assign from Group D <br/> - If cannot be found, assign from any group |
+| **Don&#39;t speak Greek** | Sports Car | - Assign from Group B <br/> - If cannot be found, assign from any group |
+| **Don&#39;t speak Greek** | Family Car | - Assign from Group C <br/> - If cannot be found, assign from any group |
+| **Speak Greek** | Not looking for anything specific | - Assign from Group A <br/> - If cannot be found, assign from any group |
 | **Don&#39;t speak Greek** | Not looking for anything specific | - Assign from any group |
 
 **Example test case**
