@@ -26,7 +26,7 @@ All salespeople are assigned to one or more groups from below.
 
 **Salesperson Assigning Rules**
 
-Rules to assign a specific salesperson to the customer is as below in priority order.
+Rules on assigning a specific salesperson to the customer are below in priority order.
 
 If a salesperson is assigned to a customer, that person cannot be assigned to another customer. If there are no salesperson available, application should return a message saying, &quot;All salespeople are busy. Please wait.&quot;
 
