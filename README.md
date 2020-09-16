@@ -2,13 +2,14 @@
 
 ## Requirement
 
-You are required to building a **Production ready** application where you can automatically assign a Salesperson to a customer based on a set of rules.
+You are required to build a **Production ready** application where you can automatically assign a Salesperson to a customer, based on a set of rules.
 
-We would like to see your Backend and Frontend skills. Don't stress about storing data in database use the attached JSON file as your data sources. If you are an experienced Java developer who likes to work on .NET, feel free to use Java in order to build the backend. **We are using .NET Core and Angular in our team.**
+We would like to see your Backend and Frontend skills. Don't stress about storing data in database - instead, use the attached JSON file as your data source. 
+If you are an experienced Java developer who likes to work on .NET, feel free to use Java in order to build the backend. **We are using .NET Core and Angular in our team.**
 
 ## Scenario
 
-All salespeople are assigned to one or more groups from below.
+All salespeople are assigned to one or more groups from the below list.
 
 - Group A – Speak Greek
 - Group B – Sports car specialist
@@ -19,35 +20,35 @@ All salespeople are assigned to one or more groups from below.
 
 *you can find this data in [salesperson.json](salesperson.json)*
 
-1. Cierra Vega. (Group A)
-2. Alden Cantrell. (Group B & Group D)
-3. Kierra Gentry. (Group A & Group C)
+1. Cierra Vega. (assigned to Group A)
+2. Alden Cantrell. (assigned to Group B & Group D)
+3. Kierra Gentry. (assigned to Group A & Group C)
 4. ...
 
 **Salesperson Assigning Rules**
 
-Rules on assigning a specific salesperson to the customer are below in priority order.
+Rules on assigning a specific salesperson to a customer are below, in order of priority.
 
-If a salesperson is assigned to a customer, that person cannot be assigned to another customer. If there are no salesperson available, application should return a message saying, &quot;All salespeople are busy. Please wait.&quot;
+If a salesperson is assigned to a customer, that person cannot be assigned to another customer at the same time. If there are no salespeople available, the application should return a message saying, &quot;All salespeople are busy. Please wait.&quot;
 
 | **Customer** | **Looking for** | **Rules** |
 | --- | --- | --- |
-| **Speak Greek** | Sports Car | - Assign from Group A and Group B. <br/> - If cannot be found, assign from Group B <br/> - If cannot be found, assign from any group |
-| **Speak Greek** | Family Car | - Assign from Group A and Group C. <br/> - If cannot be found, assign from Group A <br/> - If cannot be found, assign from any group |
+| **Speaks Greek** | Sports Car | - Assign from Group A and Group B. <br/> - If cannot be found, assign from Group B <br/> - If cannot be found, assign from any group |
+| **Speaks Greek** | Family Car | - Assign from Group A and Group C. <br/> - If cannot be found, assign from Group A <br/> - If cannot be found, assign from any group |
 | **Regardless of the language** | Tradie Vehicle | - Assign from Group D <br/> - If cannot be found, assign from any group |
-| **Don't speak Greek** | Sports Car | - Assign from Group B <br/> - If cannot be found, assign from any group |
-| **Don't speak Greek** | Family Car | - Assign from Group C <br/> - If cannot be found, assign from any group |
-| **Speak Greek** | Not looking for anything specific | - Assign from Group A <br/> - If cannot be found, assign from any group |
-| **Don't speak Greek** | Not looking for anything specific | - Assign from any group |
+| **Doesn't speak Greek** | Sports Car | - Assign from Group B <br/> - If cannot be found, assign from any group |
+| **Doesn't speak Greek** | Family Car | - Assign from Group C <br/> - If cannot be found, assign from any group |
+| **Speaks Greek** | Not looking for anything specific | - Assign from Group A <br/> - If cannot be found, assign from any group |
+| **Doesn't speak Greek** | Not looking for anything specific | - Assign from any group |
 
 <hr/>
 
 ## Example Test Case
 
-First Customer is Greek looking for a Family car – Assigned to Kierra Gentry
+First Customer speaks Greek and is looking for a Family car – Assigned to Kierra Gentry
 
-Second Customer is Greek looking for a Sports car – Assigned to Thomas Crane
+Second Customer speaks Greek and is looking for a Sports car – Assigned to Thomas Crane
 
-Third Customer is English looking for a Sports car – Assigned to Alden Cantrell
+Third Customer doesn't speak Greek and is looking for a Sports car – Assigned to Alden Cantrell
 
 ….
