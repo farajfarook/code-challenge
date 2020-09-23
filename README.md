@@ -36,8 +36,8 @@ If a salesperson is assigned to a customer, that person cannot be assigned to an
 
 | **Customer** | **Looking for** | **Rules** |
 | --- | --- | --- |
-| **Speaks Greek** | Sports Car | - Assign someone who speaks greek and good with Sports car. <br/> - If cannot be found, assign someone who is good in Sports car. <br/> - If cannot be found, assign anyone ramdomly |
-| **Speaks Greek** | Family Car | - Assign someone who speaks greek and good with Family car. <br/> - If cannot be found, assign someone who is good in Family car. <br/> - If cannot be found, assign anyone ramdomly |
+| **Speaks Greek** | Sports Car | - Assign someone who speaks greek and good with Sports car. <br/> - If cannot be found, assign someone who is good in Sports car. <br/> - If cannot be found, assign anyone randomly |
+| **Speaks Greek** | Family Car | - Assign someone who speaks greek and good with Family car. <br/> - If cannot be found, assign someone who is good in Family car. <br/> - If cannot be found, assign anyone randomly |
 | **Regardless of the language** | Tradie Vehicle | - Assign someone who is good with Tradie vehicles <br/> - If cannot be found, assign randomly. |
 | **Doesn't speak Greek** | Sports Car | - Assign someone who is good in Sports car. <br/> - If cannot be found, assign anyone randomly. |
 | **Doesn't speak Greek** | Family Car | - Assign someone who is good in Family car. <br/> - If cannot be found, assign anyone randomly. |
