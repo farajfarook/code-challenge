@@ -36,13 +36,13 @@ If a salesperson is assigned to a customer, that person cannot be assigned to an
 
 | **Customer** | **Looking for** | **Rules** |
 | --- | --- | --- |
-| **Speaks Greek** | Sports Car | - Assign from Group A and Group B. <br/> - If cannot be found, assign from Group B <br/> - If cannot be found, assign from any group |
-| **Speaks Greek** | Family Car | - Assign from Group A and Group C. <br/> - If cannot be found, assign from Group A <br/> - If cannot be found, assign from any group |
-| **Regardless of the language** | Tradie Vehicle | - Assign from Group D <br/> - If cannot be found, assign from any group |
-| **Doesn't speak Greek** | Sports Car | - Assign from Group B <br/> - If cannot be found, assign from any group |
-| **Doesn't speak Greek** | Family Car | - Assign from Group C <br/> - If cannot be found, assign from any group |
-| **Speaks Greek** | Not looking for anything specific | - Assign from Group A <br/> - If cannot be found, assign from any group |
-| **Doesn't speak Greek** | Not looking for anything specific | - Assign from any group |
+| **Speaks Greek** | Sports Car | - Assign someone who speaks greek and good with Sports car. <br/> - If cannot be found, assign someone who is good in Sports car. <br/> - If cannot be found, assign anyone randomly |
+| **Speaks Greek** | Family Car | - Assign someone who speaks greek and good with Family car. <br/> - If cannot be found, assign someone who is good in Family car. <br/> - If cannot be found, assign anyone randomly |
+| **Regardless of the language** | Tradie Vehicle | - Assign someone who is good with Tradie vehicles <br/> - If cannot be found, assign randomly. |
+| **Doesn't speak Greek** | Sports Car | - Assign someone who is good in Sports car. <br/> - If cannot be found, assign anyone randomly. |
+| **Doesn't speak Greek** | Family Car | - Assign someone who is good in Family car. <br/> - If cannot be found, assign anyone randomly. |
+| **Speaks Greek** | Not looking for anything specific | - Assign someone who speaks greek. <br/> - If cannot be found, assign anyone randomly. |
+| **Doesn't speak Greek** | Not looking for anything specific | - Assign anyone randomly. |
 
 <hr/>
 
